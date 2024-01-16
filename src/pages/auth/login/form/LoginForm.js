@@ -6,7 +6,6 @@ function LoginForm() {
     const navigate = useNavigate()
 
     const [invalid, setInvalid] = useState(false)
-    const [user, setUser] = useState()
     const [loginForm, setLoginForm] = useState({
         userName : "",
         password : ""
