@@ -18,11 +18,11 @@ code {
 @tailwind utilities;
 
 .original-border {
-  @apply px-2 py-2 border-slate-200 border rounded-md bg-transparent focus:border focus:border-slate-500 focus:ring-0 focus:outline-none
+  @apply px-2 py-2 border-slate-200 border-2 rounded-md bg-transparent focus:border focus:border-slate-500 focus:ring-0 focus:outline-none
 }
 
 .card{
-  @apply bg-transparent border-2 rounded-md;
+  @apply bg-transparent border-2 rounded-lg;
   box-shadow: 0px 4px 18px 4px rgba(0,0,0,0.75);
 -webkit-box-shadow: 0px 4px 18px 4px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 4px 18px 4px rgba(0,0,0,0.75);
@@ -30,6 +30,10 @@ code {
 
 .button-primary {
   @apply bg-indigo-700 text-white font-bold px-3 py-2 rounded-md focus:scale-95 transition duration-75 ease-in-out
+  
+}
+.button-secondary {
+  @apply bg-red-500 text-white font-bold px-3 py-2 rounded-md focus:scale-95 transition duration-75 ease-in-out
   
 }
 
@@ -40,4 +44,10 @@ code {
   top: 0;
   bottom: 0;
   margin: auto;
+}
+
+.shadow-primary {
+  box-shadow: 3px 3px 16px 5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 3px 16px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 16px 5px rgba(0,0,0,0.75);
 }
